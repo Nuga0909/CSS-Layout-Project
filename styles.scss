@@ -83,7 +83,6 @@ header {
 
 .section-2 {
   display: flex;
-  // width: 100%;
   justify-content: center;
   align-items: center;
   gap: 2.5rem;
@@ -108,8 +107,16 @@ header {
   }
   .for2 {
     background-color: $myColor-4;
+    @include for();
+    #for2title {
+        @include for-title();
+      }
   }
   .for3 {
     background-color: $myColor-5;
+    @include for();
+    #for3title {
+        @include for-title();
+      }
   }
 }

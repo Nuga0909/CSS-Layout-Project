@@ -85,7 +85,31 @@ header nav #Dep {
 }
 .section-2 .for2 {
   background-color: #3d83df;
+  height: inherit;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+  justify-content: space-between;
+}
+.section-2 .for2 #for2title {
+  font-size: 1.625em;
+  font-weight: 400;
+  margin: 0.3em 0;
+  font-family: Work Sans, Arial, sans-serif;
 }
 .section-2 .for3 {
   background-color: #1b2734;
+  height: inherit;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+  justify-content: space-between;
+}
+.section-2 .for3 #for3title {
+  font-size: 1.625em;
+  font-weight: 400;
+  margin: 0.3em 0;
+  font-family: Work Sans, Arial, sans-serif;
 }/*# sourceMappingURL=styles.css.map */
