@@ -1,0 +1,30 @@
+* {
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+.head {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem 0;
+  position: fixed;
+  width: 100vw;
+}
+.head img {
+  height: 2rem;
+}
+.head nav {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+.head nav #About {
+  color: #00b39b;
+}
+.head nav #Career, .head nav #Dep {
+  color: #ababab;
+}/*# sourceMappingURL=styles.css.map */

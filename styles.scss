@@ -1,0 +1,39 @@
+$myFont: Helvetica, sans-serif;
+$myColor-1: #00b39b;
+$myColor-2: #ababab;
+$myColor-3: #fff;
+$myColor-4: #3d83df;
+$myFontSize: 16px;
+
+* {
+  font-family: $myFont;
+  font-size: $myFontSize;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+.head {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem 0;
+  position: fixed;
+  //   top: 0;
+  width: 100vw;
+  //   background-color: white;
+  img {
+    height: 2rem;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    #About {
+        color: $myColor-1;
+    }
+    #Career, #Dep {
+        color: $myColor-2;
+    }
+  }
+}
