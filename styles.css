@@ -54,4 +54,38 @@ header nav #Dep {
   line-height: 1.5;
   margin-right: 2rem;
   text-align: left;
+}
+
+.section-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 3rem;
+  color: #fff;
+  font-family: Work Sans, Arial, sans-serif;
+  height: 15rem;
+}
+.section-2 .for1 {
+  background-color: #00b39b;
+  height: inherit;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+  justify-content: space-between;
+}
+.section-2 .for1 #for1title {
+  font-size: 1.625em;
+  font-weight: 400;
+  margin: 0.3em 0;
+  font-family: Work Sans, Arial, sans-serif;
+}
+.section-2 .for2 {
+  background-color: #3d83df;
+}
+.section-2 .for3 {
+  background-color: #1b2734;
 }/*# sourceMappingURL=styles.css.map */

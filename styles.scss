@@ -1,9 +1,27 @@
 $myFont: Helvetica, sans-serif;
+$myFont-2: Work Sans, Arial, sans-serif;
 $myColor-1: #00b39b;
 $myColor-2: #ababab;
 $myColor-3: #fff;
 $myColor-4: #3d83df;
+$myColor-5: #1b2734;
 $myFontSize: 16px;
+
+@mixin for {
+  height: inherit;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+  justify-content: space-between;
+}
+
+@mixin for-title {
+  font-size: 1.625em;
+  font-weight: 400;
+  margin: 0.3em 0;
+  font-family: $myFont-2;
+}
 
 * {
   font-family: $myFont;
@@ -56,9 +74,42 @@ header {
     align-items: center;
     justify-content: space-between;
     p {
-        line-height: 1.5;
-        margin-right: 2rem;
-        text-align: left;
+      line-height: 1.5;
+      margin-right: 2rem;
+      text-align: left;
     }
+  }
+}
+
+.section-2 {
+  display: flex;
+  // width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  // padding: 1.375em 1.25em 0;
+  // font-size: 1.5em;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 3rem;
+  color: $myColor-3;
+  font-family: $myFont-2;
+  // max-width: 1015px;
+  // padding: 0 20px;
+  // position: relative;
+  height: 15rem;
+
+  .for1 {
+    background-color: $myColor-1;
+    @include for();
+    #for1title {
+      @include for-title();
+    }
+  }
+  .for2 {
+    background-color: $myColor-4;
+  }
+  .for3 {
+    background-color: $myColor-5;
   }
 }
