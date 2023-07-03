@@ -24,10 +24,10 @@ $myFontSize: 16px;
 }
 
 @mixin for-select {
-    border: none;
-    text-decoration: underline;
-    // margin-bottom: 30px;
-    color: inherit;
+  border: none;
+  text-decoration: underline;
+  // margin-bottom: 30px;
+  color: inherit;
 }
 
 * {
@@ -107,8 +107,8 @@ header {
       @include for-title();
     }
     select {
-        @include for-select();
-        background-color: $myColor-1;
+      @include for-select();
+      background-color: $myColor-1;
     }
   }
   .for2 {
@@ -118,8 +118,8 @@ header {
       @include for-title();
     }
     select {
-        @include for-select();
-        background-color: $myColor-4;
+      @include for-select();
+      background-color: $myColor-4;
     }
   }
   .for3 {
@@ -129,8 +129,31 @@ header {
       @include for-title();
     }
     select {
-        @include for-select();
-        background-color: $myColor-5;
+      @include for-select();
+      background-color: $myColor-5;
+    }
+  }
+}
+
+.section-3 {
+  display: flex;
+  padding: 4rem 15rem;
+  gap: 5rem;
+  #section3title {
+    width: 50%;
+    color: $myColor-1;
+    p {
+      font-size: 20px;
+      font-weight: 400;
+    }
+  }
+  #section3logos {
+    width: 50%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 2rem;
+    img {
+        width: 5rem;
     }
   }
 }

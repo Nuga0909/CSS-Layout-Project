@@ -130,4 +130,27 @@ header nav #Dep {
   text-decoration: underline;
   color: inherit;
   background-color: #1b2734;
+}
+
+.section-3 {
+  display: flex;
+  padding: 4rem 15rem;
+  gap: 5rem;
+}
+.section-3 #section3title {
+  width: 50%;
+  color: #00b39b;
+}
+.section-3 #section3title p {
+  font-size: 20px;
+  font-weight: 400;
+}
+.section-3 #section3logos {
+  width: 50%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 2rem;
+}
+.section-3 #section3logos img {
+  width: 5rem;
 }/*# sourceMappingURL=styles.css.map */
