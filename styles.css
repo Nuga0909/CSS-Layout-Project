@@ -83,6 +83,12 @@ header nav #Dep {
   margin: 0.3em 0;
   font-family: Work Sans, Arial, sans-serif;
 }
+.section-2 .for1 select {
+  border: none;
+  text-decoration: underline;
+  color: inherit;
+  background-color: #00b39b;
+}
 .section-2 .for2 {
   background-color: #3d83df;
   height: inherit;
@@ -98,6 +104,12 @@ header nav #Dep {
   margin: 0.3em 0;
   font-family: Work Sans, Arial, sans-serif;
 }
+.section-2 .for2 select {
+  border: none;
+  text-decoration: underline;
+  color: inherit;
+  background-color: #3d83df;
+}
 .section-2 .for3 {
   background-color: #1b2734;
   height: inherit;
@@ -112,4 +124,10 @@ header nav #Dep {
   font-weight: 400;
   margin: 0.3em 0;
   font-family: Work Sans, Arial, sans-serif;
+}
+.section-2 .for3 select {
+  border: none;
+  text-decoration: underline;
+  color: inherit;
+  background-color: #1b2734;
 }/*# sourceMappingURL=styles.css.map */

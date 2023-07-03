@@ -23,6 +23,13 @@ $myFontSize: 16px;
   font-family: $myFont-2;
 }
 
+@mixin for-select {
+    border: none;
+    text-decoration: underline;
+    // margin-bottom: 30px;
+    color: inherit;
+}
+
 * {
   font-family: $myFont;
   font-size: $myFontSize;
@@ -86,16 +93,11 @@ header {
   justify-content: center;
   align-items: center;
   gap: 2.5rem;
-  // padding: 1.375em 1.25em 0;
-  // font-size: 1.5em;
   font-weight: 300;
   line-height: 1.2;
   margin: 3rem;
   color: $myColor-3;
   font-family: $myFont-2;
-  // max-width: 1015px;
-  // padding: 0 20px;
-  // position: relative;
   height: 15rem;
 
   .for1 {
@@ -104,19 +106,31 @@ header {
     #for1title {
       @include for-title();
     }
+    select {
+        @include for-select();
+        background-color: $myColor-1;
+    }
   }
   .for2 {
     background-color: $myColor-4;
     @include for();
     #for2title {
-        @include for-title();
-      }
+      @include for-title();
+    }
+    select {
+        @include for-select();
+        background-color: $myColor-4;
+    }
   }
   .for3 {
     background-color: $myColor-5;
     @include for();
     #for3title {
-        @include for-title();
-      }
+      @include for-title();
+    }
+    select {
+        @include for-select();
+        background-color: $myColor-5;
+    }
   }
 }
