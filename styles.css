@@ -6,25 +6,52 @@
   text-decoration: none;
 }
 
-.head {
+header {
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 2rem 0;
   position: fixed;
+  top: 0;
   width: 100vw;
+  background-color: white;
 }
-.head img {
+header img {
   height: 2rem;
 }
-.head nav {
+header nav {
   display: flex;
   justify-content: space-between;
   width: 30%;
 }
-.head nav #About {
+header nav #About {
   color: #00b39b;
 }
-.head nav #Career, .head nav #Dep {
+header nav #Career,
+header nav #Dep {
   color: #ababab;
+}
+
+.section-1 {
+  margin-top: 12rem;
+  text-align: center;
+}
+.section-1 img {
+  height: 3rem;
+}
+.section-1 #p-head {
+  font-size: 2rem;
+  color: #00b39b;
+}
+.section-1 .para {
+  display: flex;
+  padding: 3rem 20rem;
+  color: #ababab;
+  align-items: center;
+  justify-content: space-between;
+}
+.section-1 .para p {
+  line-height: 1.5;
+  margin-right: 2rem;
+  text-align: left;
 }/*# sourceMappingURL=styles.css.map */

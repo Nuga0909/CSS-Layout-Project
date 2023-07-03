@@ -13,15 +13,15 @@ $myFontSize: 16px;
   text-decoration: none;
 }
 
-.head {
+header {
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 2rem 0;
   position: fixed;
-  //   top: 0;
+  top: 0;
   width: 100vw;
-  //   background-color: white;
+  background-color: white;
   img {
     height: 2rem;
   }
@@ -30,10 +30,35 @@ $myFontSize: 16px;
     justify-content: space-between;
     width: 30%;
     #About {
-        color: $myColor-1;
+      color: $myColor-1;
     }
-    #Career, #Dep {
-        color: $myColor-2;
+    #Career,
+    #Dep {
+      color: $myColor-2;
+    }
+  }
+}
+
+.section-1 {
+  margin-top: 12rem;
+  text-align: center;
+  img {
+    height: 3rem;
+  }
+  #p-head {
+    font-size: 2rem;
+    color: $myColor-1;
+  }
+  .para {
+    display: flex;
+    padding: 3rem 20rem;
+    color: $myColor-2;
+    align-items: center;
+    justify-content: space-between;
+    p {
+        line-height: 1.5;
+        margin-right: 2rem;
+        text-align: left;
     }
   }
 }
